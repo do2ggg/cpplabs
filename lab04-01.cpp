@@ -29,8 +29,8 @@ int main()
 	double sum, n;
 	cout << "Введіть N:";
 	cin >> n;
-	for (double count = 1; count <=n; count += 1) {
-		sum += count;
+	for (double i = 1; i <=n; i += 1) {
+		sum += i;
 	}
 	cout << "Відповідь:" << sum << "\n";
 	cout << brightcyan
